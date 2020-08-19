@@ -1,0 +1,504 @@
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+
+/* ----------------super charger element ---------------- */
+.supercharge {
+  width: 100%;
+  height: 400px;
+  background-image: url("./pictures/House1.png");
+  padding-top: 0px;
+  padding-left: 80px;
+  position: relative;
+}
+
+.su_theme1 {
+  width: 61px;
+  height: 63px;
+  margin-top: 84px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  display: inline-flex;
+  color: #7e2790;
+}
+
+.su_theme2 {
+  max-width: 432px;
+  min-height: 95px;
+  margin-top: 0px;
+  margin-left: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  letter-spacing: 3px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  display: inline-flex;
+  background-color: #313131;
+  color: white;
+}
+
+.su_theme3 {
+  max-width: 259px;
+  min-height: 45px;
+  margin-top: 48px;
+  margin-bottom: 0px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  color: #7d7d7d;
+}
+
+.su_theme4 {
+  position: absolute;
+  max-width: 259px;
+  min-height: 46px;
+  margin-bottom: 0px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #7d7d7d;
+}
+
+.su_theme5 {
+  max-width: 534px;
+  min-height: 26px;
+  margin-top: 54px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  color: #7d7d7d;
+}
+
+.su_theme6 {
+  max-width: 169px;
+  height: 21px;
+  margin-top: 32px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  color: #b72790;
+}
+
+.su_pic {
+  position: absolute;
+  width: 667px;
+  height: 400px;
+  left: 599px;
+  top: 84px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.circlebox {
+  position: absolute;
+  width: 16px;
+  height: 136px;
+  left: 92.8%;
+  top: 247px;
+  /* linear-gradient(84.34deg, #470662 -41.31%, #b72790 127.51%); */
+  border-radius: 32px;
+  margin-top: 0px;
+}
+
+.su_circle {
+  width: 16px;
+  height: 16px;
+  left: 92.8%;
+  top: 246px;
+  /* linear-gradient(84.34deg, #470662 -41.31%, #b72790 127.51%); */
+  border-radius: 32px;
+  margin-top: 24px;
+  border: solid 1px;
+}
+
+/* -------------- intro element----------------- */
+.intro {
+  width: 100%;
+  min-height: 459px;
+  position: relative;
+}
+
+.intro_theme1 {
+  max-width: 252px;
+  min-height: 26px;
+  margin-left: 39.019%;
+  margin-top: 204px;
+  margin-bottom: 0px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  color: #7e2790;
+}
+
+.intro_theme2 {
+  max-width: 281px;
+  min-height: 45px;
+  margin-left: 39.019%;
+  margin-top: 8px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 55px;
+  display: flex;
+  align-items: center;
+  color: #470662;
+}
+
+.intro_theme3 {
+  max-width: 367px;
+  min-height: 69px;
+  margin-left: 39.019%;
+  margin-top: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #7d7d7d;
+}
+
+.intro_theme4 {
+  max-width: 200px;
+  min-height: 21px;
+  margin-left: 39.019%;
+  margin-top: 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #b72790;
+}
+
+.intro_theme4 > img {
+  margin-left: 16px;
+}
+
+.intro_outcircle {
+  position: absolute;
+  width: 27.8%;
+  top: 28.5%;
+  margin-left: 41.25%;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.house {
+  bottom: 0px;
+  position: absolute;
+  margin-left: -15px;
+  width: calc(100% - 15px);
+}
+
+.overhouse {
+  bottom: 0px;
+  position: absolute;
+  margin-left: -15px;
+  width: calc(100% - 15px);
+  opacity: 0.8;
+}
+
+.location_theme {
+  margin-left: 40px;
+  margin-top: 40px;
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.location_cont {
+  width: 416px;
+  height: 98px;
+  margin-top: 32px;
+  margin-left: 40px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  color: white;
+}
+
+.location_direct {
+  margin-top: 16px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+  max-width: 155px;
+  min-height: 21px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #e336b4;
+}
+
+.row {
+  min-height: 460px;
+}
+
+/* ------------------why us-------------------- */
+.wrapper {
+  min-height: 436px;
+  position: relative;
+}
+
+.girlpic {
+  width: calc(100% + 15px);
+}
+
+.overgirlpic {
+  position: absolute;
+  top: 0;
+  width: calc(100% - 15px);
+}
+
+.comtxt {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.wh_theme1 {
+  max-width: 252px;
+  min-height: 26px;
+  margin-left: 67px;
+  margin-top: 80px;
+  margin-bottom: 0px;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  color: #7e2790;
+}
+
+.wh_theme2 {
+  max-width: 281px;
+  min-height: 45px;
+  margin-left: 67px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 55px;
+  color: #470662;
+}
+
+.wh_theme3 {
+  max-width: 560px;
+  min-height: 159px;
+  margin-left: 67px;
+  margin-top: 16px;
+  margin-bottom: 0px;
+  padding-right: 10px;
+  font-weight: normal;
+  color: #7d7d7d;
+}
+
+.wh_theme4 {
+  margin-left: 67px;
+}
+/* --------------------- products ------------------ */
+.pro_theme1 {
+  max-width: 252px;
+  min-height: 26px;
+  margin-left: 36.1%;
+  margin-top: 264px;
+  margin-bottom: 0px;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  color: #7e2790;
+}
+
+.pro_theme2 {
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 8px;
+  line-height: 49px;
+  color: #470662;
+}
+
+.prostage1 {
+  min-height: 83px;
+  background-color: #fff;
+}
+
+.prostage2 {
+  min-height: 420px;
+  margin-top: 22px;
+  position: relative;
+  background-image: linear-gradient(
+    168.22deg,
+    #bf078d -31.84%,
+    #510a6f 118.07%
+  );
+}
+
+.pro_robot {
+  position: absolute;
+  width: 14.72%;
+  bottom: 9.5%;
+  margin-left: 13.26%;
+  z-index: 1;
+}
+
+.pro_circles {
+  position: absolute;
+  margin-left: 5.555%;
+  bottom: 43.1%;
+}
+
+.pro_fadehouse {
+  margin-left: 20.625%;
+  position: absolute;
+}
+
+.pro_colorcircle {
+  position: absolute;
+  margin-left: 86.1%;
+  bottom: 341px;
+  width: 8.333%;
+}
+
+.pro_theme3 {
+  max-width: 620px;
+  min-height: 109px;
+  margin-left: 36.111%;
+  padding-top: 31px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  color: #ffffff;
+}
+
+.pro_theme4 {
+  max-width: 204px;
+  min-height: 21px;
+  margin-left: 36.111%;
+  margin-top: 42px;
+  font-style: normal;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.pro_theme4 > img {
+  margin-left: 24px;
+}
+
+.pro_theme5 {
+  position: absolute;
+  max-width: 346px;
+  min-height: 29px;
+  right: 19.44%;
+  bottom: 102px;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: right;
+  color: white;
+  display: flex;
+  margin-bottom: 0px;
+}
+
+.pro_leftarrow {
+  position: absolute;
+  border-radius: 80px;
+  width: 72px;
+  height: 72px;
+  background-color: #470662;
+  opacity: 0.3;
+  right: 12.22%;
+  bottom: 80px;
+  align-content: center;
+}
+
+.pro_rightarrow {
+  position: absolute;
+  border-radius: 80px;
+  width: 72px;
+  height: 72px;
+  background-color: #470662;
+  opacity: 0.8;
+  right: 5.55%;
+  bottom: 80px;
+  align-content: center;
+}
+
+.white {
+  color: white;
+}
+
+/* ----------------pic container --------------- */
+.col {
+  padding-left: 16px;
+  padding-top: 32px;
+  padding-right: 16px;
+  position: relative;
+}
+
+.pic {
+  width: 100%;
+}
+
+.viewwin {
+  align-items: center;
+}
+
+.pic_theme {
+  position: absolute;
+  top: 40px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 55px;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  color: #fafafa;
+}
+
+.pic_content {
+  position: absolute;
+  top: 93px;
+  width: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  align-items: center;
+  text-align: center;
+  color: #fafafa;
+}
+
+/* ---------------  our client -------------------- */
+.cli_theme1 {
+  margin-top: 80px;
+  margin-left: 8.48%;
+  margin-bottom: 0px;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  color: #7e2790;
+}
+
+.cli_theme2 {
+  margin-top: 8px;
+  margin-left: 8.3%;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 55px;
+  color: #470662;
+}

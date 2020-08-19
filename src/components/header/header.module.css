@@ -1,0 +1,40 @@
+.wrapper {
+  min-height: 88px;
+  display: block;
+  background-color: #fff;
+}
+
+.content {
+  max-width: 1440px;
+  margin: auto;
+  border: none;
+  box-shadow: none;
+  padding: 0px;
+  min-height: 70px;
+}
+
+.brand {
+  width: 182px;
+  height: 40px;
+  margin: auto 80px;
+  margin-right: 52px;
+}
+
+.leftmenu > li {
+  padding: 12px;
+}
+
+.leftmenu > li > a {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: black !important;
+}
+
+.user {
+  width: 24px;
+  height: 24px;
+  margin-right: 80px;
+}
