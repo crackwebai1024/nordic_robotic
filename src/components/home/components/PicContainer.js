@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBBox, MDBCol, MDBRow, MDBView, MDBMask } from "mdbreact";
+import { MDBBox, MDBCol, MDBRow, MDBView } from "mdbreact";
 import styles from "../home.module.css";
 
 const PicContainer = (props) => {

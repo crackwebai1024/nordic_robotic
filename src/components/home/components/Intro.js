@@ -19,7 +19,7 @@ const Intro = (props) => {
           </MDBBox>
           <MDBTypography tag="p" className={styles.intro_theme4}>
             Find more about us
-            <img src="assets/pictures/home/arrow.png"></img>
+            <img src="assets/pictures/home/arrow.png" alt="arrow"></img>
           </MDBTypography>
         </MDBCol>
         <MDBCol md="6">

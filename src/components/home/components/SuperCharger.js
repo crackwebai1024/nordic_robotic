@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../home.module.css";
-import { MDBBox, MDBTypography, MDBView, MDBMask } from "mdbreact";
+import { MDBBox, MDBTypography, MDBView } from "mdbreact";
 
 const SuperCharger = (props) => {
   return (

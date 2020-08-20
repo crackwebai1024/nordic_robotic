@@ -35,3 +35,11 @@
 .userpurple {
   color: #7e2790;
 }
+
+.owl-theme {
+  min-height: 357px;
+}
+
+html {
+  overflow-x: hidden;
+}

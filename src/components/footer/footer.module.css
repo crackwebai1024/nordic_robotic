@@ -1,0 +1,207 @@
+.wrapper {
+  background-color: #470662;
+}
+.container {
+  max-width: 1440px;
+  min-height: 751px;
+  margin: auto;
+  position: relative;
+}
+
+.circle1 {
+  position: absolute;
+  width: 120px;
+  height: 112.17px;
+  left: 80px;
+  top: -37px;
+  border-radius: 50%;
+  background-color: #470662;
+}
+
+.contact {
+  width: 100%;
+  padding-top: 15px;
+  min-height: 269px;
+  display: flex;
+  align-items: center;
+}
+
+.subscribe {
+  width: 472px;
+  height: 56px;
+  margin-left: 120px;
+  border: solid 1px #fff;
+}
+
+.news {
+  width: 320px;
+  height: 100%;
+  border-right: solid 1px #fff;
+  display: inline-flex;
+  align-items: center;
+}
+
+.newscontent {
+  color: white;
+  margin-bottom: 0px;
+  margin-left: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.subbtnwrapper {
+  display: inline;
+  color: white;
+  width: 149px;
+  height: 53px;
+  margin: 0px;
+}
+
+.subbtn {
+  width: 149px;
+  height: 53px;
+  margin: 0px;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: -2px;
+  padding-left: 12px;
+  padding-right: 12px;
+  text-transform: none;
+  background-color: #600e83;
+}
+
+.subbtn:hover {
+  color: white !important;
+}
+
+.iconbox {
+  width: 352px;
+  height: 64px;
+  margin-left: 8px;
+  display: inline-flex;
+  justify-content: space-between;
+  position: relative;
+  float: left;
+}
+
+.iconbox > div {
+  height: 64px;
+  width: 64px;
+  background-color: #600e83;
+  border-radius: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.contactbox {
+  width: 185px;
+  height: 106px;
+  float: left;
+  margin-left: 40px;
+}
+
+.icontact {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.theme1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.theme2 {
+  color: #fff;
+  margin-top: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.sector {
+  background-color: white;
+  color: white;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 83.33%;
+}
+
+.product {
+  padding-left: 68px;
+}
+
+.organization {
+  padding-left: 34px;
+}
+
+.resources {
+  padding-left: 53px;
+}
+
+.company {
+  padding-left: 42px;
+}
+
+.topic {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-top: 80px;
+  margin-bottom: 24px;
+}
+
+.item {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 40px;
+  display: flex;
+  margin: auto;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.copydiv {
+  position: relative;
+  width: 100%;
+  height: 105px;
+  display: flex;
+  justify-content: center;
+}

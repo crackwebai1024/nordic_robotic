@@ -7,6 +7,7 @@ import WhyUs from "./components/WhyUs";
 import Products from "./components/Products";
 import PicContainer from "./components/PicContainer";
 import OurClient from "./components/OurClient";
+import Owl from "./components/Owl";
 
 const Home = (props) => {
   return (
@@ -17,6 +18,7 @@ const Home = (props) => {
       <Products />
       <PicContainer />
       <OurClient />
+      <Owl />
     </MDBBox>
   );
 };
