@@ -7,10 +7,10 @@ import Content from "./components/Content";
 const Products = (props) => {
   return (
     <MDBBox className="cont_container">
-      <MDBRow>
+      {/* <MDBRow>
         <SideBar />
         <Content />
-      </MDBRow>
+      </MDBRow> */}
     </MDBBox>
   );
 };
