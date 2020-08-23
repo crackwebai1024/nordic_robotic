@@ -8,14 +8,21 @@
   position: relative;
 }
 
-.circle1 {
+.deccircle {
   position: absolute;
   width: 120px;
   height: 112.17px;
-  left: 80px;
   top: -37px;
   border-radius: 50%;
   background-color: #470662;
+}
+
+.circle1 {
+  left: 80px;
+}
+
+.circle2 {
+  right: 80px;
 }
 
 .contact {
@@ -47,8 +54,6 @@
   margin-left: 16px;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 22px;
   display: flex;
   align-items: center;
 }
@@ -65,9 +70,8 @@
   width: 149px;
   height: 53px;
   margin: 0px;
-  font-size: 16px;
-  line-height: 22px;
   margin-top: -2px;
+  margin-bottom: 2px;
   padding-left: 12px;
   padding-right: 12px;
   text-transform: none;
@@ -115,8 +119,6 @@
 .theme1 {
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
-  line-height: 33px;
   display: flex;
   align-items: center;
   color: #ffffff;
@@ -127,8 +129,6 @@
   margin-top: 16px;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 22px;
   display: flex;
   align-items: center;
 }
@@ -162,8 +162,6 @@
 .topic {
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
-  line-height: 29px;
   color: #ffffff;
   margin-top: 80px;
   margin-bottom: 24px;
@@ -173,8 +171,6 @@
   font-family: Helvetica;
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
-  line-height: 19px;
   height: 27px;
   display: flex;
   align-items: center;
@@ -204,4 +200,84 @@
   height: 105px;
   display: flex;
   justify-content: center;
+}
+
+@media only screen and (max-width: 1280px) {
+  .news {
+    width: 220px;
+  }
+  .subscribe {
+    width: 372px;
+  }
+  .product,
+  .organization,
+  .resources,
+  .company {
+    padding-left: 15px;
+  }
+  .sector {
+    margin-left: 8.33%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .subscribe {
+    margin: auto;
+  }
+  .icontact {
+    justify-content: center;
+  }
+  .product {
+    padding-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .topic,
+  .item {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .padding1 {
+    display: none;
+  }
+  .product,
+  .organization,
+  .resources,
+  .company {
+    padding-left: 150px;
+  }
+  .topic {
+    margin-top: 40px;
+    margin-bottom: 3px;
+  }
+  .item {
+    margin-top: 3px;
+  }
+  .topic,
+  .item {
+    display: flex;
+  }
+
+  .iconbox > div {
+    height: 40px;
+    width: 40px;
+    background-color: #600e83;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .subbtn {
+    margin-top: 0px;
+  }
+
+  .subscribe {
+    margin-left: 20px;
+  }
 }

@@ -21,19 +21,19 @@ const WhyUs = (props) => {
         <MDBCol md="6">
           <MDBTypography
             tag="p"
-            className={styles.comtxt + " " + styles.wh_theme1}
+            className={styles.comtxt + " usersm " + styles.wh_theme1}
           >
             WE HAVE ROLE
           </MDBTypography>
           <MDBTypography
             tag="p"
-            className={styles.comtxt + " " + styles.wh_theme2}
+            className={styles.comtxt + " bxl " + styles.wh_theme2}
           >
             Why Us ?
           </MDBTypography>
           <MDBTypography
             tag="p"
-            className={styles.comtxt + " " + styles.wh_theme3}
+            className={styles.comtxt + " usersm " + styles.wh_theme3}
           >
             In Nordic Robotics we have only proven eco-friendly technologies
             that maintain nature purity. Our equipment is fully autonomous and

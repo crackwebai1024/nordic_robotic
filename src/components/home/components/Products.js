@@ -8,14 +8,18 @@ const Products = () => {
       <MDBBox className={styles.prostage1}>
         <MDBTypography
           tag="p"
-          className={styles.comtxt + " " + styles.pro_theme1}
+          className={styles.comtxt + " usersm " + styles.pro_theme1}
         >
           OUR PRODUCTS
         </MDBTypography>
         <MDBTypography
           tag="p"
           className={
-            styles.comtxt + " " + styles.pro_theme1 + " " + styles.pro_theme2
+            styles.comtxt +
+            " " +
+            styles.pro_theme1 +
+            " bxl " +
+            styles.pro_theme2
           }
         >
           Med Robot
@@ -37,28 +41,29 @@ const Products = () => {
           alt="backgroundhouse"
           className={styles.pro_fadehouse}
         />
-        <img
+        {/* <img
           src="assets/pictures/home/circlepur.png"
           alt="colorcircle"
           className={styles.pro_colorcircle}
-        />
-        <MDBBox className={styles.pro_theme3}>
+        /> */}
+        <MDBBox className={styles.pro_colorcircle}></MDBBox>
+        <MDBBox className={styles.pro_theme3 + " sl"}>
           This one is med rob which can fly and give the patient the treatment
           they need inside of the robot, the doctor can do any type of surgery
           inside the robot.
         </MDBBox>
         <MDBTypography
           tag="p"
-          className={styles.comtxt + " " + styles.pro_theme4}
+          className={styles.comtxt + " usersm " + styles.pro_theme4}
         >
           Check more products
           <img src="assets/pictures/home/whitearrow.png" alt="arrow"></img>
         </MDBTypography>
         <MDBTypography
           tag="p"
-          className={styles.comtxt + " " + styles.pro_theme5}
+          className={styles.comtxt + " sl " + styles.pro_theme5}
         >
-          Next : <strong>Milller Drone</strong>
+          Next : <strong>Miller Drone</strong>
         </MDBTypography>
         <MDBBtn className={styles.pro_leftarrow}>
           <MDBIcon icon="angle-left" className={styles.white} size="lg" />

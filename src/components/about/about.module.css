@@ -1,0 +1,408 @@
+.wrapper {
+  width: 100%;
+  position: relative;
+  padding: 80px;
+  padding-bottom: 0px;
+  min-height: 561px;
+}
+
+.building {
+  width: 100%;
+  height: 481px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(155.5deg, #b72790 0.64%, #92046b 106.59%);
+  position: relative;
+}
+
+.piccover {
+  display: none;
+}
+
+.intro {
+  max-width: 560px;
+  min-height: 151px;
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+  color: #ffffff;
+  padding-left: 80px;
+  margin-right: 40px;
+}
+
+.pic {
+  float: right;
+  height: 100%;
+}
+
+.cont_wrapper {
+  width: 100%;
+}
+
+.menu {
+  width: 100%;
+  min-height: 114px;
+  background-color: #7e2790;
+  align-items: center;
+}
+
+.menu > div {
+  padding-right: 0px;
+  margin-left: 0px;
+  width: 100%;
+  min-height: 114px;
+}
+
+.menuitem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.menuitem > a {
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.item1 {
+  max-width: 195px;
+  min-height: 74px;
+}
+
+.item2 {
+  max-width: 175px;
+  min-height: 74px;
+}
+
+.active {
+  background-color: #fff;
+}
+
+.active > a {
+  color: #b72790;
+}
+
+.mis_wrapper {
+  width: 100%;
+  padding-top: 80px;
+  justify-content: center;
+}
+
+.mis_theme {
+  margin-top: 25.17px;
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  color: #470662;
+}
+
+.mis_pic {
+  display: flex;
+  justify-content: center;
+}
+
+.mis_topic {
+  max-width: 800px;
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: #7d7d7d;
+  margin: auto;
+  margin-top: 24px;
+  letter-spacing: 1px;
+}
+
+.mis_subtopic {
+  max-width: 800px;
+  font-style: normal;
+  font-weight: normal;
+  min-height: 77px;
+  font-family: Nunito;
+  display: flex;
+  align-items: center;
+  color: #7d7d7d;
+  display: flex;
+  margin: auto;
+  margin-top: 32px;
+  padding-left: 24px;
+  border-left: solid 1px #b72790;
+}
+
+.cardbox {
+  max-width: 888px;
+  margin: auto;
+  position: relative;
+}
+
+.cardwrapper {
+  width: 296px;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.vertical_line {
+  width: 1px;
+  height: 80%;
+  right: 0px;
+  top: 10%;
+  position: absolute;
+  border: 1px solid #c4c4c4;
+}
+
+.horizon_line {
+  position: absolute;
+  margin-left: 20px;
+  top: 48%;
+  width: 840px;
+  height: 1px;
+  border: 1px solid #c4c4c4;
+}
+
+.valuecard {
+  max-width: 216px;
+}
+
+.cardtheme {
+  margin-top: 24px;
+  max-width: 216px;
+  height: 21px;
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: #313131;
+}
+
+.cardcontent {
+  margin-top: 16px;
+  width: 216px;
+  font-style: normal;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  color: #7d7d7d;
+}
+
+.robot {
+  width: 100%;
+  min-height: 500px;
+  padding-top: 20px;
+}
+
+.robtxt {
+  padding-left: 87px;
+  min-height: 480px;
+  display: flex;
+  align-items: center;
+}
+
+.press {
+  margin-bottom: 0px;
+  width: 252px;
+  height: 26px;
+  font-style: normal;
+  font-weight: normal;
+  font-family: Nunito;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  color: #7e2790;
+}
+
+.rob_title {
+  margin-top: 8px;
+  width: 100%;
+  height: 45px;
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: #470662;
+}
+
+.rob_content {
+  margin-top: 24px;
+  height: 204px;
+}
+
+.rob_cont_theme {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: #b72790;
+}
+
+.rob_cont {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  color: #7d7d7d;
+  padding-left: 25px;
+}
+
+.robimg {
+  position: relative;
+}
+
+.icecleaner {
+  /* position: absolute; */
+  margin-left: -43px;
+}
+
+.location {
+  width: 100%;
+}
+
+.loc_theme {
+  height: 49px;
+  font-style: normal;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  color: #470662;
+}
+
+.loc_cont {
+  margin: auto;
+  width: 762px;
+  min-height: 114px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  display: block;
+  align-items: center;
+  color: #7d7d7d;
+  margin-top: 24px;
+  letter-spacing: 1px;
+}
+
+.locationbox {
+  max-width: 1020px;
+  margin: auto;
+  margin-top: 32px;
+  margin-bottom: 118px;
+}
+
+@media only screen and (max-width: 1440px) {
+}
+
+@media only screen and (max-width: 1366px) {
+  .wrapper {
+    padding: 40px;
+  }
+  .pic {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+}
+
+@media only screen and (max-width: 1080px) {
+  .wrapper {
+    padding: 20px;
+  }
+  .building {
+    background-image: url("./components/building.png");
+    background-size: cover;
+  }
+  .pic {
+    display: none;
+  }
+  .intro {
+    color: black;
+  }
+  .piccover {
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+  }
+  .item1,
+  .item2 {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .vertical_line {
+    display: none;
+  }
+  .horizon_line {
+    display: none;
+  }
+  .cardrow {
+    display: flex;
+    justify-content: center;
+  }
+  .cardwrapper {
+    width: 250px;
+    /* display: flex;
+    justify-content: center; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* position: relative; */
+    box-shadow: 3px 3px 2px rgba(100, 100, 100, 0.3);
+    margin: 5px;
+  }
+  .robtxt {
+    padding-left: 40px;
+    padding-top: 40px;
+    align-items: flex-start;
+  }
+  .robimg > img {
+    width: 100%;
+  }
+  .robimg {
+    display: flex;
+    align-items: center;
+  }
+  .robot {
+    min-height: 550px;
+  }
+  .locationbox > img {
+    width: 90%;
+  }
+  .locationbox {
+    padding-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .menuitem {
+    height: 50px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .loc_cont {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    padding: 0px;
+  }
+  .mis_wrapper {
+    padding: 20px;
+  }
+  .intro {
+    padding-left: 40px;
+  }
+}

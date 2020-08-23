@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./utility/App.css";
 import history from "./utility/history";
 import "bootstrap-css-only/css/bootstrap.min.css";
@@ -10,12 +10,13 @@ import Footer from "./components/footer/Footer";
 import BaseRouter from "./routes";
 
 function App() {
+  const [isLeft, setIsLeft] = useState(true);
   return (
     <div className="App">
       <Router history={history}>
-        <Header />
+        <Header setIsLeft={setIsLeft} />
         <BaseRouter />
-        <Footer />
+        <Footer isLeft={isLeft} />
       </Router>
     </div>
   );

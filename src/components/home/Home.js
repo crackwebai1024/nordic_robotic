@@ -11,7 +11,7 @@ import Owl from "./components/Owl";
 
 const Home = (props) => {
   return (
-    <MDBBox className={styles.container}>
+    <MDBBox className="cont_container">
       <SuperCharger />
       <Intro />
       <WhyUs />

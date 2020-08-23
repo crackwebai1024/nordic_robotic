@@ -1,0 +1,236 @@
+.themebox {
+  width: 100%;
+  height: 280px;
+  background: linear-gradient(155.5deg, #b72790 0.64%, #92046b 106.59%);
+  position: relative;
+  padding-top: 89px;
+}
+
+.themebox > img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.theme {
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  align-items: center;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.themecont {
+  margin-top: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 1px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.phone {
+  padding-top: 80px;
+  padding-left: 192px;
+  height: 649.39px;
+}
+
+.phone > img {
+  width: 480px;
+  /* height: 409px; */
+  position: relative;
+}
+
+.address {
+  position: absolute;
+  left: 192px;
+  top: 376px;
+  width: 113px;
+  height: 28px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.adcont {
+  position: absolute;
+  width: 245px;
+  height: 69px;
+  left: 192px;
+  top: 420px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+}
+
+.contact {
+  left: 477px;
+}
+
+.cont_phone {
+  position: absolute;
+  width: 245px;
+  height: 69px;
+  left: 477px;
+  top: 420px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+}
+
+.cont_mail {
+  position: absolute;
+  width: 245px;
+  height: 69px;
+  left: 477px;
+  top: 460px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+}
+
+.cont_phone > img,
+.cont_mail > i {
+  margin-right: 16px;
+}
+
+.cont_form {
+  padding-top: 80px;
+  padding-left: 17px;
+}
+
+.contactform {
+  width: 543px;
+  height: 492px;
+  background: #ffffff;
+  padding: 12px;
+}
+
+.cardtheme {
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: #b72790;
+  height: 37px;
+  margin-bottom: 24px;
+}
+
+.data {
+  height: 53px !important;
+  margin-top: 16px !important;
+}
+
+.txt {
+  height: 160px !important;
+  margin-top: 16px !important;
+  border-radius: 4px !important;
+}
+
+.submitbtn {
+  width: 100%;
+  width: 479px;
+  height: 48px;
+  background: linear-gradient(91.73deg, #df1dab -9.31%, #741887 91.4%);
+  border-radius: 4px;
+  margin: 0px;
+  margin-top: 8px;
+  margin-bottom: 30px;
+  text-transform: none;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 1280px) {
+  .phone {
+    padding-left: 40px;
+  }
+  .address,
+  .adcont {
+    left: 40px;
+  }
+  .contact,
+  .cont_phone,
+  .cont_mail {
+    left: 325px;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .contactform,
+  .submitbtn {
+    width: 100%;
+  }
+  .phone > img {
+    width: 100%;
+  }
+  .contactcontent {
+    position: relative;
+    margin-top: -110px;
+  }
+  .address,
+  .adcont,
+  .contact,
+  .cont_phone,
+  .cont_mail {
+    left: 80px;
+  }
+  .address {
+    top: 10px;
+  }
+  .adcont {
+    top: 50px;
+  }
+  .contact {
+    top: 130px;
+  }
+  .cont_phone {
+    top: 160px;
+  }
+  .cont_mail {
+    top: 190px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .phone > img {
+    width: 500px;
+  }
+  .cont_form {
+    padding-top: 20px;
+    width: 80%;
+    margin: auto;
+  }
+  .phone {
+    padding-top: 20px;
+    padding-left: 50px;
+    height: 550px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .phone > img {
+    width: 390px;
+  }
+  .phone {
+    padding-left: 20px;
+    height: 480px;
+  }
+}

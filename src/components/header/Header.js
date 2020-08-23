@@ -10,15 +10,31 @@ import {
   MDBCollapse,
 } from "mdbreact";
 
-const Header = () => {
+const Header = (props) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [active, setActive] = useState("1");
+  const [active, setActiveItem] = useState("1");
+  const setActive = (item) => {
+    debugger;
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    debugger;
+    setActiveItem(item);
+    switch (item) {
+      case "1":
+      case "2":
+        props.setIsLeft(true);
+        break;
+      default:
+        props.setIsLeft(false);
+        break;
+    }
+  };
   const toggleCollapse = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <MDBNavbar dark expand="md" className={`sticky-top ${styles.wrapper}`}>
-      <MDBNavbar className={`ml-auto ${styles.content}`}>
+    <MDBNavbar dark expand="md" className={"sticky-top " + styles.wrapper}>
+      <MDBNavbar className={"ml-auto " + styles.content}>
         <MDBNavbarBrand>
           <img
             src="../../assets/pictures/header/brand.png"

@@ -17,7 +17,7 @@ const BaseRouter = (props) => {
         <Route path="/products">
           <Products />
         </Route>
-        <Route path="/cooperate">
+        <Route path="/cooperation">
           <Cooperate />
         </Route>
         <Route path="/contact">

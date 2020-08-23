@@ -24,7 +24,11 @@ const PicContainer = (props) => {
       theme: "Miller Drone",
       content: "Explore The Posibilities",
     },
-    { url: "smarttrash", theme: "Smart Trash", content: "Recycle in Smart" },
+    {
+      url: "smarttrash",
+      theme: "Smart Trash",
+      content: "Recycle in usersmart",
+    },
     {
       url: "roadbuildinger",
       theme: "Road Buildinger",
@@ -43,22 +47,34 @@ const PicContainer = (props) => {
       content: "Help Dive Offshore,",
     },
   ];
+  let way = "";
   return (
     <MDBBox>
-      <MDBRow>
-        {urls.map((item) => (
-          <MDBCol md="6" className={styles.col}>
-            <MDBView hover zoom className={styles.viewwin}>
-              <img
-                src={"assets/pictures/home/" + item.url + ".png"}
-                className={"img-fluid " + styles.pic}
-                alt=""
-              />
-              <MDBBox className={styles.pic_theme}>{item.theme}</MDBBox>
-              <MDBBox className={styles.pic_content}>{item.content}</MDBBox>
-            </MDBView>
-          </MDBCol>
-        ))}
+      <MDBRow className={styles.picrow}>
+        {urls.map((item, key) => {
+          if (key % 2 === 0) {
+            way = "left";
+          } else {
+            way = "right";
+          }
+          return (
+            <MDBCol md="6" className={styles[way]}>
+              <MDBView hover zoom className={styles.viewwin}>
+                <img
+                  src={"assets/pictures/home/" + item.url + ".png"}
+                  className={"img-fluid " + styles.pic}
+                  alt=""
+                />
+                <MDBBox className={styles.pic_theme + " bxl"}>
+                  {item.theme}
+                </MDBBox>
+                <MDBBox className={styles.pic_content + " sl"}>
+                  {item.content}
+                </MDBBox>
+              </MDBView>
+            </MDBCol>
+          );
+        })}
       </MDBRow>
     </MDBBox>
   );

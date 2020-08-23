@@ -1,13 +1,9 @@
-.container {
-  max-width: 1440px;
-  margin: auto;
-}
-
 /* ----------------super charger element ---------------- */
 .supercharge {
   width: 100%;
-  height: 400px;
+  min-height: 400px;
   background-image: url("./pictures/House1.png");
+  background-attachment: cover;
   padding-top: 0px;
   padding-left: 80px;
   position: relative;
@@ -17,9 +13,7 @@
   width: 61px;
   height: 63px;
   margin-top: 84px;
-  font-style: normal;
   font-weight: bold;
-  font-size: 64px;
   display: inline-flex;
   color: #7e2790;
 }
@@ -32,9 +26,7 @@
   padding-left: 16px;
   padding-right: 16px;
   letter-spacing: 3px;
-  font-style: normal;
   font-weight: bold;
-  font-size: 64px;
   display: inline-flex;
   background-color: #313131;
   color: white;
@@ -45,10 +37,7 @@
   min-height: 45px;
   margin-top: 48px;
   margin-bottom: 0px;
-  font-style: normal;
   font-weight: normal;
-  font-size: 32px;
-  line-height: 44px;
   display: flex;
   color: #7d7d7d;
 }
@@ -58,10 +47,7 @@
   max-width: 259px;
   min-height: 46px;
   margin-bottom: 0px;
-  font-style: normal;
   font-weight: normal;
-  font-size: 32px;
-  line-height: 44px;
   color: #7d7d7d;
 }
 
@@ -69,22 +55,16 @@
   max-width: 534px;
   min-height: 26px;
   margin-top: 54px;
-  font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 22px;
   display: flex;
   color: #7d7d7d;
 }
 
 .su_theme6 {
-  max-width: 169px;
+  width: 169px;
   height: 21px;
   margin-top: 32px;
-  font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 22px;
   display: flex;
   color: #b72790;
 }
@@ -131,13 +111,10 @@
 .intro_theme1 {
   max-width: 252px;
   min-height: 26px;
-  margin-left: 39.019%;
+  margin-left: 37.391%;
   margin-top: 204px;
   margin-bottom: 0px;
-  font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 22px;
   display: flex;
   align-items: center;
   letter-spacing: 0.1em;
@@ -147,12 +124,9 @@
 .intro_theme2 {
   max-width: 281px;
   min-height: 45px;
-  margin-left: 39.019%;
+  margin-left: 37.391%;
   margin-top: 8px;
-  font-style: normal;
   font-weight: bold;
-  font-size: 40px;
-  line-height: 55px;
   display: flex;
   align-items: center;
   color: #470662;
@@ -161,24 +135,18 @@
 .intro_theme3 {
   max-width: 367px;
   min-height: 69px;
-  margin-left: 39.019%;
+  margin-left: 37.391%;
   margin-top: 16px;
-  font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 22px;
   color: #7d7d7d;
 }
 
 .intro_theme4 {
   max-width: 200px;
   min-height: 21px;
-  margin-left: 39.019%;
+  margin-left: 37.391%;
   margin-top: 24px;
-  font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 22px;
   color: #b72790;
 }
 
@@ -199,14 +167,14 @@
   bottom: 0px;
   position: absolute;
   margin-left: -15px;
-  width: calc(100% - 15px);
+  width: 720px;
 }
 
 .overhouse {
   bottom: 0px;
   position: absolute;
   margin-left: -15px;
-  width: calc(100% - 15px);
+  width: 720px;
   opacity: 0.8;
 }
 
@@ -214,9 +182,7 @@
   margin-left: 40px;
   margin-top: 40px;
   color: white;
-  font-style: normal;
   font-weight: bold;
-  font-size: 32px;
 }
 
 .location_cont {
@@ -224,10 +190,7 @@
   height: 98px;
   margin-top: 32px;
   margin-left: 40px;
-  font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 33px;
   color: white;
 }
 
@@ -237,10 +200,7 @@
   margin-bottom: 50px;
   max-width: 155px;
   min-height: 21px;
-  font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 22px;
   display: flex;
   align-items: center;
   color: #e336b4;
@@ -257,19 +217,19 @@
 }
 
 .girlpic {
-  width: calc(100% + 15px);
+  position: absolute;
+  width: 100%;
+  left: 0px;
 }
 
 .overgirlpic {
   position: absolute;
+  left: 0px;
   top: 0;
-  width: calc(100% - 15px);
+  width: 100%;
 }
 
 .comtxt {
-  font-style: normal;
-  font-size: 16px;
-  line-height: 22px;
   display: flex;
   align-items: center;
 }
@@ -292,8 +252,6 @@
   margin-top: 8px;
   margin-bottom: 0px;
   font-weight: bold;
-  font-size: 40px;
-  line-height: 55px;
   color: #470662;
 }
 
@@ -369,8 +327,12 @@
 .pro_colorcircle {
   position: absolute;
   margin-left: 86.1%;
-  bottom: 341px;
-  width: 8.333%;
+  bottom: 401px;
+  width: 120px;
+  height: 60px;
+  border-top-right-radius: 60px;
+  border-top-left-radius: 60px;
+  background-color: rgb(138, 11, 128);
 }
 
 .pro_theme3 {
@@ -378,10 +340,7 @@
   min-height: 109px;
   margin-left: 36.111%;
   padding-top: 31px;
-  font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 33px;
   color: #ffffff;
 }
 
@@ -390,7 +349,6 @@
   min-height: 21px;
   margin-left: 36.111%;
   margin-top: 42px;
-  font-style: normal;
   font-weight: normal;
   color: #ffffff;
 }
@@ -406,14 +364,15 @@
   right: 19.44%;
   bottom: 102px;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 33px;
   text-align: right;
   color: white;
   display: flex;
   margin-bottom: 0px;
 }
 
+.pro_theme5 > strong {
+  font-weight: bold;
+}
 .pro_leftarrow {
   position: absolute;
   border-radius: 80px;
@@ -443,13 +402,17 @@
 }
 
 /* ----------------pic container --------------- */
-.col {
-  padding-left: 16px;
+.left {
   padding-top: 32px;
+  padding-left: 0px;
   padding-right: 16px;
-  position: relative;
 }
 
+.right {
+  padding-top: 32px;
+  padding-left: 16px;
+  padding-right: 0px;
+}
 .pic {
   width: 100%;
 }
@@ -461,10 +424,7 @@
 .pic_theme {
   position: absolute;
   top: 40px;
-  font-style: normal;
   font-weight: bold;
-  font-size: 40px;
-  line-height: 55px;
   align-items: center;
   text-align: center;
   width: 100%;
@@ -475,10 +435,7 @@
   position: absolute;
   top: 93px;
   width: 100%;
-  font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 33px;
   align-items: center;
   text-align: center;
   color: #fafafa;
@@ -499,12 +456,165 @@
   margin-left: 8.3%;
   margin-bottom: 24px;
   font-weight: bold;
-  font-size: 40px;
-  line-height: 55px;
   color: #470662;
 }
 
 /* ---------------------owl--------------------- */
 .owl {
   width: 240px !important;
+}
+
+@media only screen and (max-width: 1440px) {
+  .left {
+    padding-left: 32px;
+  }
+  .right {
+    padding-right: 32px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .su_pic {
+    width: 550px;
+    height: 350px;
+    left: 529px;
+    top: 80px;
+  }
+  .left {
+    padding-left: 16px;
+  }
+  .right {
+    padding-right: 16px;
+  }
+  .pro_colorcircle {
+    background-color: rgb(143, 11, 129);
+  }
+  .wh_theme1,
+  .wh_theme2,
+  .wh_theme3,
+  .wh_theme4 {
+    margin-left: 20px;
+  }
+  .wh_theme1 {
+    margin-top: 40px;
+  }
+  .pro_leftarrow,
+  .pro_rightarrow {
+    border-radius: 60px;
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+  }
+  .owl {
+    width: 160px !important;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .su_pic {
+    width: 350px;
+    height: 250px;
+    left: 329px;
+    top: 180px;
+  }
+
+  .pro_theme3 {
+    margin-right: 50px;
+  }
+  .owl {
+    width: 120px !important;
+  }
+  .pro_leftarrow,
+  .pro_rightarrow {
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    bottom: 90px;
+  }
+  .pro_colorcircle {
+    background-color: rgb(146, 12, 132);
+    right: 60px;
+  }
+  .intro_theme1,
+  .intro_theme2,
+  .intro_theme3,
+  .intro_theme4 {
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .supercharge {
+    padding-left: 60px;
+  }
+  .overhouse,
+  .house {
+    width: 760px;
+  }
+  .prostage1 {
+    margin-top: 40px;
+  }
+  .pro_leftarrow,
+  .pro_rightarrow {
+    bottom: 40px;
+  }
+  .pro_leftarrow {
+    right: 120px;
+  }
+  .pro_rightarrow {
+    right: 40px;
+  }
+  .pro_colorcircle {
+    display: none;
+  }
+  .pro_theme1 {
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .supercharge {
+    padding-left: 40px;
+  }
+  .su_theme5 {
+    padding-right: 40px;
+  }
+  .intro_theme1 {
+    margin-top: 20px;
+  }
+
+  .intro_theme1,
+  .intro_theme2,
+  .intro_theme3,
+  .intro_theme4 {
+    margin-left: 30px;
+  }
+
+  .row {
+    height: 580px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .su_pic {
+    width: 350px;
+    height: 250px;
+    left: 30px;
+    top: 180px;
+    opacity: 0.7;
+  }
+  .owl {
+    width: 80px !important;
+  }
+  .location_cont {
+    width: 80vw;
+  }
+  .su_theme1 {
+    padding-right: 10px;
+  }
+  .su_theme2 {
+    min-height: 70px;
+    margin-left: 5px;
+    padding-left: 5px;
+  }
 }

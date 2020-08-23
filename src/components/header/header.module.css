@@ -33,8 +33,48 @@
   color: black !important;
 }
 
+.leftmenu > li > a:hover {
+  color: red !important;
+}
+
 .user {
   width: 24px;
   height: 24px;
-  margin-right: 80px;
+  margin-right: 64px;
+}
+
+@media only screen and (max-width: 1280px) {
+  .wrapper {
+    min-height: 70px;
+  }
+  .content {
+    min-height: 52px;
+  }
+  .leftmenu > li {
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .brand {
+    margin: auto 30px;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .brand {
+    margin: auto 30px 10px;
+  }
+  .user {
+    margin-right: -10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .leftmenu > li > a {
+    margin-left: 30px;
+  }
+  .user {
+    margin-left: 40px;
+  }
 }

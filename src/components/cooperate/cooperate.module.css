@@ -1,0 +1,457 @@
+.partner {
+  padding-top: 120px;
+  min-height: 743px;
+  width: 100%;
+  background-image: url("pictures/apart.png");
+  background-size: cover;
+  position: relative;
+}
+
+.marginbox {
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  top: 200px;
+  right: -150px;
+  background-color: white;
+}
+
+.pa_theme1 {
+  max-width: 562px;
+  height: 171px;
+  margin-left: 120px;
+  /* font-family: Nunito; */
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: #7e2790;
+  float: left;
+}
+
+.pic {
+  position: absolute;
+  height: 240px;
+  width: 240px;
+}
+
+.google {
+  top: 123px;
+  left: 799px;
+}
+
+.space {
+  top: 120px;
+  left: 1146px;
+}
+
+.nasa {
+  left: 614px;
+  top: 244px;
+}
+
+.apple {
+  left: 977px;
+  top: 244px;
+}
+
+.tron {
+  left: 1305px;
+  top: 245px;
+}
+
+.tesla {
+  left: 799px;
+  top: 386px;
+}
+
+.kuka {
+  left: 1146px;
+  top: 386px;
+}
+
+/* -------------- story --------------- */
+.story {
+  width: 100%;
+  min-height: 372px;
+  position: relative;
+  background: linear-gradient(to bottom, #b72790 0.64%, #92046b 106.59%);
+}
+
+.circle {
+  position: absolute;
+  width: 120px;
+  height: 60px;
+  right: 80px;
+  top: -40px;
+  /* background: linear-gradient(to bottom, #b72790 0.64%, #b72790 50.59%); */
+  background-color: rgb(182, 38, 143);
+  border-top-right-radius: 60px;
+  border-top-left-radius: 60px;
+}
+
+.storytxt {
+  padding-left: 80px;
+  padding-top: 40px;
+}
+
+.st_theme1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  color: #7e2790;
+  margin-bottom: 0px;
+}
+
+.st_theme2 {
+  max-width: 442px;
+  min-height: 90px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.st_theme3 {
+  max-width: 597px;
+  min-height: 99px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  margin-top: 24px;
+  letter-spacing: 0.1px;
+}
+
+.st_theme4 {
+  color: #b72790;
+  font-weight: bold;
+}
+
+.st_theme4 > i {
+  margin-left: 16px;
+}
+
+.st_img {
+  position: relative;
+}
+
+.st_img > img {
+  padding-top: 40px;
+  padding-left: 18.37%;
+  padding-bottom: 40px;
+  width: 88.51%;
+}
+
+/* -----------------connect------------------ */
+.conbox {
+  width: 100%;
+  min-height: 467.4px;
+  padding-left: 80px;
+  padding-top: 80px;
+  position: relative;
+}
+
+.con_theme1 {
+  width: 442px;
+  height: 49px;
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: #470662;
+}
+
+.appcon_theme1 {
+  font-style: normal;
+  font-weight: bold;
+  display: block;
+  align-items: center;
+  color: #470662;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.robotbox {
+  margin-top: 59px;
+  max-width: 462px;
+  max-height: 279.4px;
+}
+
+.robotbox > img {
+  width: 100%;
+  height: 100%;
+}
+
+.contactbox {
+  position: absolute;
+  top: 48px;
+  left: 594px;
+  width: 543px;
+  padding: 12px;
+}
+
+.cardtheme {
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: #b72790;
+  height: 37px;
+  margin-bottom: 24px;
+}
+
+.data {
+  height: 53px !important;
+  margin-top: 16px !important;
+}
+
+.submitbtn {
+  width: 100%;
+  width: 479px;
+  height: 48px;
+  background: linear-gradient(91.73deg, #df1dab -9.31%, #741887 91.4%);
+  border-radius: 4px;
+  margin: 0px;
+  margin-top: 8px;
+  margin-bottom: 30px;
+  text-transform: none;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.submitbtn:hover {
+  color: white;
+}
+
+.appconbox {
+  display: none;
+}
+
+@media only screen and (max-width: 1440px) {
+  .marginbox {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .pic {
+    position: absolute;
+    height: 160px;
+    width: 160px;
+  }
+
+  .google {
+    top: 123px;
+    left: 699px;
+  }
+
+  .space {
+    top: 120px;
+    left: 849px;
+  }
+
+  .nasa {
+    left: 614px;
+    top: 244px;
+  }
+
+  .apple {
+    left: 777px;
+    top: 244px;
+  }
+
+  .tron {
+    left: 927px;
+    top: 245px;
+  }
+
+  .tesla {
+    left: 699px;
+    top: 386px;
+  }
+
+  .kuka {
+    left: 849px;
+    top: 386px;
+  }
+
+  .contactbox {
+    top: 48px;
+    left: 494px;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .google {
+    top: 223px;
+    left: 499px;
+  }
+
+  .space {
+    top: 220px;
+    left: 649px;
+  }
+
+  .nasa {
+    left: 434px;
+    top: 344px;
+  }
+
+  .apple {
+    left: 577px;
+    top: 344px;
+  }
+
+  .tron {
+    left: 727px;
+    top: 345px;
+  }
+
+  .tesla {
+    left: 499px;
+    top: 466px;
+  }
+
+  .kuka {
+    left: 649px;
+    top: 466px;
+  }
+
+  .conbox {
+    display: none;
+  }
+
+  .appconbox {
+    display: block;
+  }
+
+  .contactbox {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+  }
+
+  .submitbtn {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .pa_theme1 {
+    text-align: center;
+    margin: 30px;
+    float: none;
+  }
+
+  .google {
+    top: 323px;
+    left: 299px;
+  }
+
+  .space {
+    top: 320px;
+    left: 449px;
+  }
+
+  .nasa {
+    left: 214px;
+    top: 444px;
+  }
+
+  .apple {
+    left: 377px;
+    top: 444px;
+  }
+
+  .tron {
+    left: 527px;
+    top: 445px;
+  }
+
+  .tesla {
+    left: 299px;
+    top: 566px;
+  }
+
+  .kuka {
+    left: 449px;
+    top: 566px;
+  }
+
+  .storytxt {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .st_img > img {
+    padding-left: 10%;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 600px) {
+  .google {
+    left: 99px;
+  }
+
+  .space {
+    left: 249px;
+  }
+
+  .nasa {
+    left: 14px;
+  }
+
+  .apple {
+    left: 177px;
+  }
+
+  .tron {
+    left: 327px;
+  }
+
+  .tesla {
+    left: 99px;
+  }
+
+  .kuka {
+    left: 249px;
+  }
+
+  .st_theme1 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .st_theme2 {
+    font-size: 30px;
+    line-height: 37px;
+  }
+
+  .st_theme3 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .storytxt {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

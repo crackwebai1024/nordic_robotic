@@ -4,6 +4,14 @@
   }
 }
 
+a {
+  cursor: pointer;
+}
+
+.active > a.nav-link.Ripple-parent {
+  color: blue !important;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,6 +36,53 @@
   }
 }
 
+.cont_container {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.sxl {
+  font-size: 64px;
+  font-style: normal;
+  line-height: 87px;
+}
+
+.bxl {
+  font-size: 40px;
+  font-style: normal;
+  line-height: 55px;
+}
+
+.userxl {
+  font-size: 32px;
+  font-style: normal;
+  line-height: 44px;
+}
+
+.bl {
+  font-size: 24px;
+  font-style: normal;
+  line-height: 40px;
+}
+
+.sl {
+  font-size: 24px;
+  font-style: normal;
+  line-height: 33px;
+}
+
+.bm {
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+}
+
+.usersm {
+  font-size: 16px !important;
+  font-style: normal;
+  line-height: 22px;
+}
+
 .navbar-toggler-icon {
   background-color: #555555 !important;
 }
@@ -42,4 +97,93 @@
 
 html {
   overflow-x: hidden;
+}
+
+div.md-form.md-outline {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+label {
+  margin-top: 7px;
+  margin-left: 6px;
+}
+
+label.active {
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+div.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .sxl {
+    font-size: 45px;
+    font-style: normal;
+    line-height: 67px;
+  }
+
+  .bxl {
+    font-size: 30px;
+    font-style: normal;
+    line-height: 40px;
+  }
+
+  .userxl {
+    font-size: 32px;
+    font-style: normal;
+    line-height: 44px;
+  }
+
+  .bl {
+    font-size: 20px;
+    font-style: normal;
+    line-height: 25px;
+  }
+
+  .sl {
+    font-size: 20px;
+    font-style: normal;
+    line-height: 25px;
+  }
+
+  .bm {
+    font-size: 14px !important;
+    font-style: normal;
+    line-height: 20px;
+  }
+
+  .usersm {
+    font-size: 14px !important;
+    font-style: normal;
+    line-height: 18px;
+  }
+}
+
+.nav-link[data-toggle].collapsed:before {
+  content: " ▾";
+}
+.nav-link[data-toggle]:not(.collapsed):before {
+  content: " ▴";
+}
+
+@media only screen and (max-width: 1440px) {
+}
+
+@media only screen and (max-width: 1280px) {
+}
+
+@media only screen and (max-width: 1080px) {
+}
+
+@media only screen and (max-width: 800px) {
+}
+
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 600px) {
 }

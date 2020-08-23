@@ -7,13 +7,13 @@ function OurClient(props) {
     <MDBBox>
       <MDBTypography
         tag="p"
-        className={styles.comtxt + " " + styles.cli_theme1}
+        className={styles.comtxt + " usersm " + styles.cli_theme1}
       >
         WORKING WITH US
       </MDBTypography>
       <MDBTypography
         tag="p"
-        className={styles.comtxt + " " + styles.cli_theme2}
+        className={styles.comtxt + " bxl " + styles.cli_theme2}
       >
         Our Clients
       </MDBTypography>
