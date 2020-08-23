@@ -386,7 +386,7 @@
 }
 
 .pro_rightarrow {
-  position: absolute;
+  position: absolute !important;
   border-radius: 80px;
   width: 72px;
   height: 72px;
